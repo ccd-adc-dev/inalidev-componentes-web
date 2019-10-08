@@ -17,8 +17,8 @@
         display: flex;
         height: 4rem;
         background: #465D72;
-        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
-
+        /* box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15); */
+        opacity: 0.6;
     }
 
     #Logotipo {
@@ -77,9 +77,18 @@
       color: #fff;
     }
 
+    a:hover {
+      text-decoration-style: none;
+      color: #FBB634;
+    }
+
     .Idiomas {
         border-left: solid gray 1px;
 
+    }
+
+    li:hover {
+      border-left: 1px solid #FBB634;
     }
 
 </style>

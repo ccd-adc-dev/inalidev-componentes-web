@@ -3,15 +3,16 @@
 <script>
 	import Cabecera from './componentes/Cabecera/Cabecera.svelte'
 	import Pie from './componentes/Pie/Pie.svelte'
+	import LenguaResumen from './componentes/LenguaResumen/LenguaResumen.svelte'
 	
 	
 
 </script>
 
 <style>
-	* {
+	/* * {
 		outline: 1px solid rgb(141, 141, 143);
-	}
+	} */
 	
 	 .Contenedor {
 		display: flex;
@@ -27,7 +28,7 @@
 <Pie/>
 
 <div class="Contenedor">
-		
+			<LenguaResumen/>
 			<!-- <Cabecera/> -->
 			<!-- <Pie/> -->
 		

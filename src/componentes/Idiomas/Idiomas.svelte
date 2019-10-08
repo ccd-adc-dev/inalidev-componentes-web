@@ -22,17 +22,27 @@
     <select name="Idioma" id="Idioma">
         <option value="1">
             <a href="#">
-                ESPANOL  ▼  
+                Español   ▼  
             </a>
         </option>
         <option value="2">
             <a href="#">
-                MAYA    
+                Náhuatl    
             </a>
         </option>
         <option value="3">
             <a href="#">
-                NAHUATL    
+                Amuzgo   
+            </a>
+        </option>
+        <option value="3">
+            <a href="#">
+                Taraumara   
+            </a>
+        </option>
+        <option value="3">
+            <a href="#">
+                Zapoteco   
             </a>
         </option>
     </select>

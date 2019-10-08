@@ -4,8 +4,8 @@ const Logotipos = ['logo-cultura.svg','logo.inah.svg','logo-fonoteca.svg','logo.
 
 <style>
  /* footer {
-        background-color: #666;
-        padding: 2rem;
+      background-color: #666;
+      padding: 2rem;
     } */
   footer {
     display: flex;
@@ -13,7 +13,7 @@ const Logotipos = ['logo-cultura.svg','logo.inah.svg','logo-fonoteca.svg','logo.
     align-items: center;
     position: fixed;
     width: 100%;
-    height: 69px;
+    height: 40px;
     left: 0;
     bottom: 0;
     background: #465d72;
