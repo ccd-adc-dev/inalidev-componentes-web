@@ -13,6 +13,9 @@
 //   }
 
 //   $: console.log(lengua)
+
+   let IconoAgrupacion = 'iconoAgrupaciones.svg';
+      
 </script>
 
 <style>
@@ -22,9 +25,7 @@
     top: 10rem;
     left: 25%;
     width: 18rem;
-    background-color: rgba(223, 222, 222, 0.9);
-    /* height: calc( 100% - 2rem ); */
-    /* max-height: 20rem; */
+    background-color: rgba(236, 236, 236, 0.9);
     border-radius: 2rem 2rem 2rem 0;
     height: 21rem;    
     display: flex;
@@ -34,25 +35,44 @@
 
   .Informacion{
     overflow: auto;
-    font-size: 1rem;
     padding: 0rem 2rem 2rem 2rem;
-    height: 9rem;
+    height: 10rem;
     font-size: 0.9rem;
+  }
+  
+   .NombreFamilia{
+    padding: 0rem 0rem 0rem 2rem;
+    color:rgba(61, 61, 61, 1);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 18px 0px -16px 0px;
   }
 
   .NombreVariante{
     padding: 0rem 0rem 0rem 2rem;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
-   .NombreFamilia{
+  .SaberMas{
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 1);
+
+  }
+
+   .SaberMas a{
+    font-size: 1rem;
+    color:rgba(255, 255, 255, 1);
+  }
+
+  .NumeroAgrupaciones{
     padding: 0rem 0rem 0rem 2rem;
     color:rgba(61, 61, 61, 1);
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-weight: 200;
-    font-size: 0.8rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 18px 0px 0px 0px;
   }
 
   footer {
@@ -75,13 +95,9 @@
 <!-- {#if lengua} -->
   <main class="card">
     <header>
+    <i class="fa fa-arrow-close"></i>
       <p class="NombreFamilia">
-        Familia
-        <!-- {
-          lengua.NOM_FAM ? lengua.NOM_FAM :
-          lengua.NOM_AGRUP ? lengua.NOM_AGRUP : 
-          lengua.NOM_VAR 
-        } -->
+        Familia      
       </p>   
       <p class="NombreVariante">
         Nahuatl (Del Istmo)
@@ -91,6 +107,9 @@
           lengua.NOM_VAR 
         } -->
       </p>
+       <p class="NumeroAgrupaciones">
+        <span><img src="{IconoAgrupacion}"  alt=" cultura"></span> Agrupaciones linguísticas      
+      </p> 
     </header>
     <!-- <button on:click={cerrar}>X</button> -->
     <!-- <button on:click={verMas}>Ver más</button> -->
@@ -102,7 +121,12 @@
     </section>
     <footer>
         <div class="SaberMas">
-            Saber mas
+           <a href="/">
+                <span>
+                  Saber mas
+                </span>
+                <i class="fa fa-arrow-right"></i>
+            </a>
         </div>
     </footer>
   </main>
