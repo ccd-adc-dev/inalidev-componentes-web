@@ -24,8 +24,8 @@
 
 </style>
 
-<Cabecera/>
-<Pie/>
+<!-- <Cabecera/>
+<Pie/>-->
 
 <div class="Contenedor">
 			<LenguaResumen/>
