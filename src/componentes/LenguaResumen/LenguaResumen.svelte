@@ -95,7 +95,10 @@
 <!-- {#if lengua} -->
   <main class="card">
     <header>
-    <i class="fa fa-arrow-close"></i>
+      <a href="/">       
+          <i class="fa fa-close"></i>
+      </a>
+    
       <p class="NombreFamilia">
         Familia      
       </p>   
