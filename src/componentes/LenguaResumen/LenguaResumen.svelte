@@ -15,6 +15,9 @@
 //   $: console.log(lengua)
 
    let IconoAgrupacion = 'iconoAgrupaciones.svg';
+   let IconoRiesgo = 'iconoRiesgo.svg';
+   let IconoFamilia = 'iconoFamilia.svg';
+   let IconoVariantes = 'iconoVariante.svg';
       
 </script>
 
@@ -25,9 +28,9 @@
     top: 10rem;
     left: 25%;
     width: 18rem;
+    height: 21rem; 
     background-color: rgba(236, 236, 236, 0.9);
-    border-radius: 2rem 2rem 2rem 0;
-    height: 21rem;    
+    border-radius: 2rem 2rem 2rem 0;   
     display: flex;
     flex-direction: column;
     box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.15);
@@ -37,7 +40,7 @@
     overflow: auto;
     padding: 0rem 2rem 2rem 2rem;
     height: 10rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   
    .NombreFamilia{
@@ -74,6 +77,24 @@
     font-size: 0.9rem;
     margin: 5px 0px 0px 0px;
   }
+
+  .RiesgoDesaparicion{
+    padding: 0rem 0rem 0rem 2rem;
+    color:rgb(219, 4, 4);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 5px 0px 0px 0px;
+
+  }
+
+  .FamiliaPertenece{
+     padding: 0rem 0rem 0rem 2rem;
+    color:rgba(61, 61, 61, 1);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin: 5px 0px 0px 0px;
+  }
+
   .Cerrar {
     display: flex;
     justify-content: flex-end;
@@ -120,9 +141,18 @@
           lengua.NOM_VAR 
         } -->
       </p>
-       <p class="NumeroAgrupaciones">
-        <span><img src="{IconoAgrupacion}"  alt=" cultura"></span> Agrupaciones linguísticas      
-      </p> 
+       <!--<p class="NumeroAgrupaciones">
+        <span><img src="{IconoAgrupacion}"  alt="agrupacion"></span> Agrupaciones linguísticas      
+      </p> -->
+       <p class="RiesgoDesaparicion">
+        <span><img src="{IconoRiesgo}"  alt="riesgo"></span> Alto riesgo de desaparición      
+      </p>
+      <p class="FamiliaPertenece">
+        <span><img src="{IconoFamilia}"  alt="familia"></span> Familia Yuto-nahua      
+      </p>
+       <p class="FamiliaPertenece">
+        <span><img src="{IconoVariantes}"  alt="variantes"></span> 30 variantes linguísticas      
+      </p>
     </header>
     <!-- <button on:click={cerrar}>X</button> -->
     <!-- <button on:click={verMas}>Ver más</button> -->
