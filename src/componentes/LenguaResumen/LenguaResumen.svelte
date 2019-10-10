@@ -28,7 +28,7 @@
     top: 10rem;
     left: 25%;
     width: 18rem;
-    height: 21rem; 
+    height: 22rem; 
     background-color: rgba(236, 236, 236, 0.9);
     border-radius: 2rem 2rem 2rem 0;   
     display: flex;
@@ -39,7 +39,7 @@
   .Informacion{
     overflow: auto;
     padding: 0rem 2rem 2rem 2rem;
-    height: 10rem;
+    height: 8rem;
     font-size: 0.8rem;
   }
   
@@ -50,7 +50,6 @@
     letter-spacing: 4px;
     font-weight: 200;
     font-size: 1rem;
-    margin: 0px 0px -16px 0px;
   }
 
   .NombreVariante{
@@ -58,6 +57,7 @@
     font-weight: 600;
     font-size: 1.1rem;
   }
+
 
   .SaberMas{
     font-size: 1rem;
@@ -88,17 +88,28 @@
   }
 
   .FamiliaPertenece{
-     padding: 0rem 0rem 0rem 2rem;
+    padding: 0rem 0rem 0rem 2rem;
     color:rgba(61, 61, 61, 1);
     font-weight: 600;
     font-size: 0.9rem;
     margin: 5px 0px 0px 0px;
   }
 
+  .InformacionRelevante{
+     padding-bottom: 10px;
+  }
+
+  .SubTitulo {
+    padding: 0rem 0rem 0rem 2rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+  }
+
   .Cerrar {
     display: flex;
     justify-content: flex-end;
-    padding: 1rem 1rem 0 0;
+    padding: 0.75rem 1rem 0 0;
   }
   
    .Cerrar a{
@@ -141,7 +152,17 @@
           lengua.NOM_VAR 
         } -->
       </p>
-       <!--<p class="NumeroAgrupaciones">
+       <p class="SubTitulo">
+        Nahuatl (Del Istmo)
+        <!-- {
+          lengua.NOM_FAM ? lengua.NOM_FAM :
+          lengua.NOM_AGRUP ? lengua.NOM_AGRUP : 
+          lengua.NOM_VAR 
+        } -->
+      </p>
+    </header>
+    <section class="InformacionRelevante">
+        <!--<p class="NumeroAgrupaciones">
         <span><img src="{IconoAgrupacion}"  alt="agrupacion"></span> Agrupaciones linguísticas      
       </p> -->
        <p class="RiesgoDesaparicion">
@@ -153,7 +174,7 @@
        <p class="FamiliaPertenece">
         <span><img src="{IconoVariantes}"  alt="variantes"></span> 30 variantes linguísticas      
       </p>
-    </header>
+    </section>
     <!-- <button on:click={cerrar}>X</button> -->
     <!-- <button on:click={verMas}>Ver más</button> -->
     <!-- content here -->
