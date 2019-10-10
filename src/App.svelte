@@ -4,6 +4,7 @@
 	import Cabecera from './componentes/Cabecera/Cabecera.svelte'
 	import Pie from './componentes/Pie/Pie.svelte'
 	import LenguaResumen from './componentes/LenguaResumen/LenguaResumen.svelte'
+	import Glosario from './componentes/Glosario/Glosario.svelte'
 	
 	
 
@@ -28,9 +29,12 @@
 <Pie/>-->
 
 <div class="Contenedor">
-			<LenguaResumen/>
-			<!-- <Cabecera/> -->
-			<!-- <Pie/> -->
+
+	<Glosario/>
+
+	<!-- <LenguaResumen/> -->
+	<!-- <Cabecera/> -->
+	<!-- <Pie/> -->
 		
 		
 </div>
