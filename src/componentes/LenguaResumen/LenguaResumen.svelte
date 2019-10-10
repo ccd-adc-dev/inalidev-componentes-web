@@ -47,7 +47,7 @@
     letter-spacing: 4px;
     font-weight: 200;
     font-size: 1rem;
-    margin: 18px 0px -16px 0px;
+    margin: 0px 0px -16px 0px;
   }
 
   .NombreVariante{
@@ -72,7 +72,16 @@
     color:rgba(61, 61, 61, 1);
     font-weight: 600;
     font-size: 0.9rem;
-    margin: 18px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
+  }
+  .Cerrar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem 0 0;
+  }
+  
+   .Cerrar a{
+    color: rgba(135, 135, 135, 1);
   }
 
   footer {
@@ -95,10 +104,11 @@
 <!-- {#if lengua} -->
   <main class="card">
     <header>
+     <span class="Cerrar">
       <a href="/">       
           <i class="fa fa-close"></i>
       </a>
-    
+     </span>
       <p class="NombreFamilia">
         Familia      
       </p>   
