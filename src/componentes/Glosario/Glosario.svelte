@@ -15,7 +15,7 @@ dl {
 </svelte:head>
 
 
-<Lateral>
+<Lateral backgroundColor="rgba(70, 93, 114,0.85)">
 
   <h1>Glosario</h1>
 
