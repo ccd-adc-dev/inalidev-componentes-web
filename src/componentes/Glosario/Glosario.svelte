@@ -22,7 +22,7 @@ dl {
   <dl>
 
     <dt>
-        Un término de glosario
+        Familia lingüística..................................
     </dt>
     <dd>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem accusantium voluptatibus, dolore obcaecati ipsam ratione molestiae ab eius ullam, hic officia? Voluptatem, commodi nobis.</p>
