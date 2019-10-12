@@ -16,7 +16,7 @@ dl {
   <title>Glosario INALI</title>
 </svelte:head>
 
-<Lateral backgroundColor="rgba (70,93,114,0.85)">
+<Lateral backgroundColor="rgba(70,93,114,0.85)">
 
   <h1>Glosario</h1>
 
