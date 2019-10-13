@@ -18,18 +18,27 @@ dl {
     font-size: 1rem;
   }
 
-.tituloDefiniciones{
-    padding:1rem;
+.tituloDefiniciones{ 
+    color:rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 1rem 0 0 0;
+  } 
+
+.tituloConcepto{ 
+    padding:1rem;  
     color:rgba(255, 255, 255, 1);
     font-weight: 600;
     font-size: 1rem;
   } 
 
+
 .Informacion{
-   padding:1rem;
+    padding:1rem;
     font-size: 0.8rem;
     color:rgba(255, 255, 255, 1);
     font-weight: 300;
+   
 }
 
 .Informacion dt{
@@ -49,7 +58,7 @@ dl {
   }
   
  .Cerrar a{
-    color: rgba(135, 135, 135, 1);
+    color: rgba(255, 255, 255, 1);
 }
 
 </style>
@@ -67,7 +76,7 @@ dl {
   <h3 class="titulo">Glosario</h3>
 
   <dl>
-    <dt class="tituloDefiniciones">
+    <dt class="tituloConcepto">
         Concepto
     </dt>
     <dd class="tituloDefiniciones">
