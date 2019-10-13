@@ -1,3 +1,10 @@
+<script>
+
+    export let backgroundColor = '#fff'
+
+</script>
+
+
 <style>
     .Lateral {
         
@@ -16,7 +23,7 @@
     }
 </style>
 
-<aside class="Lateral">
+<aside class="Lateral" style={ `background-color: ${backgroundColor}` }>
     
     <slot/>
 
