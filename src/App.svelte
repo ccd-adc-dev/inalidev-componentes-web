@@ -5,6 +5,8 @@
 	import Pie from './componentes/Pie/Pie.svelte'
 	import LenguaResumen from './componentes/LenguaResumen/LenguaResumen.svelte'
 	import Glosario from './componentes/Glosario/Glosario.svelte'
+	import Galeria from './componentes/Galeria/Galeria.svelte'
+	import Textiles from './componentes/Textiles/Textiles.svelte'
 	
 	
 
@@ -31,6 +33,9 @@
 <div class="Contenedor">
 
 	<Glosario/>
+	
+	<Galeria/>
+	<!-- <Textiles/> -->
 
 	<!-- <LenguaResumen/> -->
 	<!-- <Cabecera/> -->
@@ -38,6 +43,8 @@
 		
 		
 </div>
+
+
 
 
 		
