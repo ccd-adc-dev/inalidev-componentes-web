@@ -10,7 +10,7 @@ dl {
 }
 
 .titulo{
-    padding: 0rem 0rem 0rem 1rem;
+    padding:1rem;
     color:rgba(255, 255, 255, 1);
     text-transform: uppercase;
     letter-spacing: 4px;
@@ -19,14 +19,14 @@ dl {
   }
 
 .tituloDefiniciones{
-    padding: 0rem 0rem 2rem 1rem;
+    padding:1rem;
     color:rgba(255, 255, 255, 1);
     font-weight: 600;
     font-size: 1rem;
   } 
 
 .Informacion{
-    padding: 0rem 1rem 0rem 1rem;
+   padding:1rem;
     font-size: 0.8rem;
     color:rgba(255, 255, 255, 1);
     font-weight: 300;
@@ -42,6 +42,16 @@ dl {
    
 }
 
+.Cerrar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0rem 1rem 0 0;
+  }
+  
+ .Cerrar a{
+    color: rgba(135, 135, 135, 1);
+}
+
 </style>
 
 <svelte:head>
@@ -49,7 +59,11 @@ dl {
 </svelte:head>
 
 <Lateral backgroundColor="rgba(70,93,114,0.85)">
-
+<span class="Cerrar">
+      <a href="/">       
+          <i class="fa fa-close"></i>
+      </a>
+</span>
   <h3 class="titulo">Glosario</h3>
 
   <dl>
