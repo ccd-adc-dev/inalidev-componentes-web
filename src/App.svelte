@@ -35,7 +35,7 @@
 
 	<!--<Glosario/>-->
 	
-	<!--<Galeria/>-->
+	<!-- <Galeria/> -->
 	<AcercaDe/>
 	<!-- <Textiles/> -->
 
