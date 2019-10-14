@@ -7,6 +7,7 @@
 	import Glosario from './componentes/Glosario/Glosario.svelte'
 	import Galeria from './componentes/Galeria/Galeria.svelte'
 	import Textiles from './componentes/Textiles/Textiles.svelte'
+	import AcercaDe from './componentes/AcercaDe/AcercaDe.svelte'
 	
 	
 
@@ -32,9 +33,10 @@
 
 <div class="Contenedor">
 
-	<Glosario/>
+	<!--<Glosario/>-->
 	
-	<Galeria/>
+	<!--<Galeria/>-->
+	<AcercaDe/>
 	<!-- <Textiles/> -->
 
 	<!-- <LenguaResumen/> -->
